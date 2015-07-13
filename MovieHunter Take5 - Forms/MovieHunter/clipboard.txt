@@ -12,8 +12,6 @@
 ng-model-options="{updateOn:'blur'}"
 ng-model-options="{debounce: 1500}"
 
-ng-keyup="vm.cancelEntry(movieForm.inputMovieTitle, $event)"
-
 --- Custom Validator ---
                     <div class="col-md-8">
                         <input class="form-control"
